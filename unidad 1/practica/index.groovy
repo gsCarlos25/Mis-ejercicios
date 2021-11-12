@@ -1,0 +1,1 @@
+alert("desde el fichero");

@@ -1,0 +1,41 @@
+#iz{
+    position:absolute;
+    height:100px;
+    width:100px;
+    top: 250px;
+    box-align: start;
+    z-index: 1;
+}
+
+#de{
+    position:absolute;
+    height:100px;
+    width:100px;
+    top: 250px;
+    padding-right: -50%;
+    z-index: 1;
+}
+/* td{
+    padding-right: 20%;
+} */
+#miimagen{
+  position:center;
+  height:100%;
+  width: 100%;
+
+}
+/* html {
+    background: div no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+html {
+    background: src="miimagen.jpg" no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    } */
+
