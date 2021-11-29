@@ -18,7 +18,14 @@ function jugar() {
     while ((jugador1.rondas_ganadas<3) && (jugador2.rondas_ganadas<3)) {
     	jugador1.mano();
     	jugador2.mano();
-    	document.getElementById('partida').innerHTML += jugador1.tirada+" vs "+jugador2.tirada+ "==>" + partida.ronda()+ "<br><br>";
+        let imagen = document.createElement('img');
+        imagen.src = jugador1.tirada;
+        document.getElementById('partida').appendChild(imagen);
+    	document.getElementById('partida').innerHTML += "vs ";
+        let imagen1 = document.createElement('img');
+        imagen1.src = jugador2.tirada;
+        document.getElementById('partida').appendChild(imagen1);
+        document.getElementById('partida').innerHTML += "==>" + partida.ronda()+ "<br><br>"
     }
     if (jugador1.rondas_ganadas==3) {
         document.getElementById('partida').innerHTML += "<h1>Gano el jugador 1</h1>";

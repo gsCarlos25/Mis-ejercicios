@@ -1,6 +1,6 @@
-const PIEDRA = "<img href='./imagenes/piedra.png'>";
-const PAPEL = "<img href='./imagenes/papel.png'>";
-const TIJERA = "<img href='./imagenes/tijera.png'>";
+const PIEDRA = "./imagenes/piedra.png";
+const PAPEL = "./imagenes/papel.png";
+const TIJERA = "./imagenes/tijera.png";
 const EMPATE = 'Ha sido empate';
 const GANA1 = 'Gana jugador 1';
 const GANA2 = 'Gana jugador 2';
